@@ -18,12 +18,23 @@
             Console.WriteLine(book.GetHashCode());
             Console.WriteLine(book.GetType());
 
-            // question three
+// question three
 
             //int pages = "464";
             //Compile-time error — you can't put text (string) into an int variable. 
             int pages = 464;
 
+// question four
+            try
+            {
+                int x = 10; int y = 0;
+                int z = x / y;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally { Console.WriteLine("done"); }
         }
     }
 }
