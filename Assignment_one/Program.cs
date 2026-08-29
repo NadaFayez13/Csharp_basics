@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+// question one 
+            Book book;
+            book  = new Book();
+
+            object obj = book;
+
+            Console.WriteLine(obj);
         }
     }
 }
