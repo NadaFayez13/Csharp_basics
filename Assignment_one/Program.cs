@@ -12,11 +12,17 @@
 
             Console.WriteLine(obj);
 
-            // question two
+// question two
             Console.WriteLine(book.ToString());
             Console.WriteLine(book.Equals(book));
             Console.WriteLine(book.GetHashCode());
             Console.WriteLine(book.GetType());
+
+            // question three
+
+            //int pages = "464";
+            //Compile-time error — you can't put text (string) into an int variable. 
+            int pages = 464;
 
         }
     }
