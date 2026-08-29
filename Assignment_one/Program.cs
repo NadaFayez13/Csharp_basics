@@ -43,8 +43,6 @@
 // question six
             double Price = 49.99;
             int int_Price = (int)Price;
-            // OR
-            double price = (int)49.99;
         }
     }
 }
