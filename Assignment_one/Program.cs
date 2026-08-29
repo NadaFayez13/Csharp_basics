@@ -22,7 +22,7 @@
 
             //int pages = "464";
             //Compile-time error — you can't put text (string) into an int variable. 
-            int pages = 464;
+            //int pages = 464;
 
 // question four
             try
@@ -35,6 +35,10 @@
                 Console.WriteLine("Cannot divide by zero");
             }
             finally { Console.WriteLine("done"); }
+
+// question five
+            int pages = 300;
+            double Pages = pages;
         }
     }
 }
